@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://consenbase.io/categories/</loc>
+    <loc>consenbase.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://consenbase.io/</loc>
+    <loc>consenbase.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://consenbase.io/tags/</loc>
+    <loc>consenbase.io/tags/</loc>
     <priority>0</priority>
   </url>
   
