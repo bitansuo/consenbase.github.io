@@ -74,6 +74,18 @@ body, h1, h2, h3, h4, h5, h6 {
   height: 74px;
 }
 
+.navbar-fixed-top {
+  position: fixed !important;
+  background: #fff;
+  margin-top: 0px;
+  top: 0;
+  color: #000;
+}
+
+.navbar-fixed-top a {
+  color: #000 !important;
+}
+
 #cbio-header .navbar {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -251,5 +263,10 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cbio-footer .text-inner p {
-  margin-bottom: 0x !important;
+  margin-bottom: 0px !important;
+  padding: 0;
+}
+
+#cbio-footer .text-inner a,  #cbio-footer .text-inner a:hover{
+  color: #f9f6f0;
 }
