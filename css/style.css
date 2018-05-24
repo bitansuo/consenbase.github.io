@@ -105,10 +105,10 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #cbio-cover {
-  height: 900px;
+  height: 1200px;
   overflow: hidden;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff
 }
 
 #cbio-cover .text-wrap {
@@ -116,7 +116,7 @@ body, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   position: relative;
   z-index: 4;
-  height: 900px;
+  height: 1200px;
 }
 
 #cbio-cover .text-inner {
@@ -127,7 +127,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 #cbio-cover .text-inner a {
   color: white;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -149,8 +148,35 @@ body, h1, h2, h3, h4, h5, h6 {
   font-size: 28px;
   line-height: 38px;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   margin: 0;
+}
+
+#cbio-cover .cover-input {
+  background-color:transparent;
+  border: 1px solid #fff;
+  color:#fff !important;
+  border-radius:0px;
+}
+
+.cover-input::-moz-placeholder { color: #fff; font-weight: 100;}
+.cover-input::-webkit-input-placeholder { color:#fff; font-weight: 100;}
+.cover-input::-ms-input-placeholder { color:#369; font-weight: 100}
+
+#cbio-cover .cover-btn {
+  width:100px;
+  border-radius:0px;
+  background-color:#3296c8;
+  border: 1px solid #3296c8;
+  color:#fff
+}
+
+#cbio-cover .cover-btn:hover {
+  width: 100px;
+  border-radius: 0px;
+  background-color: #52d3aa;
+  border: 1px solid #52d3aa;
+  color:#fff
 }
 
 #cbio-intro{

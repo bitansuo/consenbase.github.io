@@ -2,6 +2,19 @@
 	
 	'use strict';
 
+	// Cover Size
+	var setCoverSize = function() {
+		var windowHeight = $(window).height();
+		$('#cbio-cover').css("height", windowHeight);
+		$('#cbio-cover .text-wrap').css("height", windowHeight);
+	};
+
+	var windowResize = function() {
+		$(window).resize(function(event) {
+			setCoverSize();
+		});
+	};
+
 	// Page Nav
 	var clickMenu = function() {
 
@@ -45,7 +58,9 @@
 
 	// Document on load.
 	$(function(){
+		setCoverSize();
 		clickMenu();
 		windowScroll();
+		windowResize();
 	});
 }());
